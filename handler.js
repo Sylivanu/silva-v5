@@ -75,7 +75,7 @@ export async function handler(chatUpdate) {
            /*
    Do Not Modify this Section ❌  👇👇
    Else Relationship Features Will Not Work 😔
-   Your Devs Friend Shizo The Techie
+   Your Devs Friend Silva The Techie
    */
    if (!('lover' in user)) user.lover = ''
    if (!('exlover' in user)) user.exlover = ''
@@ -90,7 +90,7 @@ export async function handler(chatUpdate) {
    /*
    Do Not Modify this Section ❌  ☝️☝️
    Else Relationship Features Will Not Work 😔
-   Your Devs Friend Shizo The Techie
+   Your Devs Friend Silva The Techie
    */
           exp: 0,
           credit: 0,
@@ -116,7 +116,7 @@ export async function handler(chatUpdate) {
         if (!('antiDelete' in chat)) chat.antiDelete = true
         if (!('antiLink' in chat)) chat.antiLink = false
         if (!('antiSticker' in chat)) chat.antiSticker = false
-        if (!('antiToxic' in chat)) chat.antiToxic = false
+        if (!('antiToxic' in chat)) chat.antiToxic = true
         if (!('detect' in chat)) chat.detect = false
         if (!('getmsg' in chat)) chat.getmsg = true
         if (!('isBanned' in chat)) chat.isBanned = false
@@ -137,12 +137,12 @@ export async function handler(chatUpdate) {
           antiDelete: true,
           antiLink: false,
           antiSticker: false,
-          antiToxic: false,
+          antiToxic: true,
           detect: false,
           expired: 0,
           getmsg: true,
           isBanned: false,
-          nsfw: false,
+          nsfw: true,
           sBye: '',
           sDemote: '',
           simi: false,
@@ -389,7 +389,7 @@ export async function handler(chatUpdate) {
           plugin.credit &&
           global.db.data.users[m.sender].credit < plugin.credit * 1
         ) {
-          this.reply(m.chat, `🟥 You don't have enough gold`, m)
+          this.reply(m.chat, `🟥 You don't have enough gold or money 🤣`, m)
           continue // Gold finished
         }
         if (plugin.level > _user.level) {
@@ -544,8 +544,8 @@ export async function participantsUpdate({ id, participants, action }) {
             ppgp = await this.profilePictureUrl(id, 'image')
           } catch (error) {
             console.error(`Error retrieving profile picture: ${error}`)
-            pp = 'https://i.imgur.com/8B4jwGq.jpeg' // Assign default image URL
-            ppgp = 'https://i.imgur.com/8B4jwGq.jpeg' // Assign default image URL
+            pp = 'https://imgur.com/fFJ4giR.jpeg' // Assign default image URL
+            ppgp = 'https://imgur.com/50cewJx.jpeg' // Assign default image URL
           } finally {
             let text = (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user')
               .replace('@group', await this.getName(id))
@@ -574,10 +574,10 @@ export async function participantsUpdate({ id, participants, action }) {
                 contextInfo: {
                   mentionedJid: [user],
                   externalAdReply: {
-                    title: 'ᴏʀᴇᴏ ᴛʜᴇ ʙɪsᴄᴜɪᴛ ʙᴏᴛ',
+                    title: 'silva ᴛʜᴇ ʙᴏᴛ tech',
                     body: 'welcome to Group',
                     thumbnailUrl: welcomeApiUrl,
-                    sourceUrl: 'https://chat.whatsapp.com/DWqdPuQ0yFkKyf1SzZ0k9Y',
+                    sourceUrl: 'https://chat.whatsapp.com/Lr80ac3MKKIKGew8mFES2a',
                     mediaType: 1,
                     renderLargerThumbnail: true,
                   },
@@ -601,8 +601,8 @@ export async function participantsUpdate({ id, participants, action }) {
             ppgp = await this.profilePictureUrl(id, 'image')
           } catch (error) {
             console.error(`Error retrieving profile picture: ${error}`)
-            pp = 'https://i.imgur.com/8B4jwGq.jpeg' // Assign default image URL
-            ppgp = 'https://i.imgur.com/8B4jwGq.jpeg' // Assign default image URL
+            pp = 'https://imgur.com/fFJ4giR.jpeg' // Assign default image URL
+            ppgp = 'https://imgur.com/50cewJx.jpeg' // Assign default image URL
           } finally {
             let text = (chat.sBye || this.bye || conn.bye || 'HELLO, @user').replace(
               '@user',
@@ -631,7 +631,7 @@ export async function participantsUpdate({ id, participants, action }) {
                 contextInfo: {
                   mentionedJid: [user],
                   externalAdReply: {
-                    title: 'ᴏʀᴇᴏ ᴛʜᴇ ʙɪsᴄᴜɪᴛ ʙᴏᴛ',
+                    title: 'silva ᴛʜᴇ ʙᴏᴛ tech',
                     body: 'Goodbye from  Group',
                     thumbnailUrl: leaveApiUrl,
                     sourceUrl: 'https://chat.whatsapp.com/DWqdPuQ0yFkKyf1SzZ0k9Y',
@@ -876,12 +876,12 @@ global.dfail = (type, m, conn) => {
   }
 
   const msg = {
-    owner: `*${emoji.owner} Owner's Query*\n
-    ${userTag} This command can only be used by the *Bot Owner*!`,
+    owner: `*${emoji.owner} the silva v5 Owner's Query*\n
+    ${userTag} This command can only be used by the *silva v5 Bot Owner*!`,
     moderator: `*${emoji.moderator} Moderator's Query*\n
-    ${userTag} This command can only be used by *Moderators*!`,
-    premium: `*${emoji.premium} Premium Query*\n
-    ${userTag} This command is only for *Premium Members*!`,
+    ${userTag} This command can only be used by *silva v5 Moderators*!`,
+    premium: `*${emoji.premium} silva v5 Premium Query*\n
+    ${userTag} This command is only for *silva v5 Premium Members*!`,
     group: `*${emoji.group} Group Query*\n
     ${userTag} This command can only be used in *Group Chats*!`,
     private: `*${emoji.private} Private Query*\n
