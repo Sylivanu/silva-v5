@@ -93,3 +93,6 @@ async function Analyze(text) {
     return { toxicity: NaN, insult: NaN, combined: NaN }
   }
 }
+
+
+    
