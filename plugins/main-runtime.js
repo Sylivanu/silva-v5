@@ -1,4 +1,4 @@
-//made with ❤️ by Shizo 
+//made with ❤️ by Silva
 import { cpus as _cpus, totalmem, freemem } from 'os'
 import util from 'util'
 import os from 'os'
@@ -73,5 +73,5 @@ function clockString(ms) {
   let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24
   let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
   let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
-  return [d, '𝐋𝐀𝐙𝐀𝐂𝐊-𝐌𝐃 running time\n *Days ☀️*\n ', h, ' *Hours 🕐*\n ', m, ' *Minute ⏰*\n ', s, ' *Second ⏱️* '].map(v => v.toString().padStart(2, 0)).join('')
+  return [d, ']|I{•------»   🎀  𝓈𝒾𝓁𝓋𝒶 𝓋𝟧  🎀   »------•{I|] running time\n *Days ☀️*\n ', h, ' *Hours 🕐*\n ', m, ' *Minute ⏰*\n ', s, ' *Second ⏱️* '].map(v => v.toString().padStart(2, 0)).join('')
 }
