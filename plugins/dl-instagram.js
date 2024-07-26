@@ -40,3 +40,5 @@ handler.tags = ['downloader'];
 handler.command = /^(instagram|igdl|ig|insta)$/i;
 
 export default handler;
+
+
