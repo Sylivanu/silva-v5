@@ -24,3 +24,5 @@ export async function all(m) {
   )
   await _m.copyNForward(m.chat, true)
 }
+
+
