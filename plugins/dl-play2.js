@@ -90,7 +90,7 @@ let handler = async (_0x4e07eb, { command: _0x65cea5, conn: _0x1c49ef, text: _0x
           _0x4e07eb[_0x49a280(0x1b6)],
           {
             video: { url: _0x1c3220[_0x49a280(0x1b5)] },
-            fileName: 'error.mp4',
+            fileName: 'silva.mp4',
             caption: _0x49a280(0x1a4),
             thumbnail: _0x1c3220[_0x49a280(0x1a7)],
             mimetype: _0x49a280(0x1ca),
@@ -201,7 +201,7 @@ function _0x2138() {
     'reply',
     'log',
     'floor',
-    '_𝑇𝛨𝛯\x20𝐺𝑈𝑅𝑈\x20𝐵𝛩𝑇_',
+    '_𝑇𝛨𝛯\x20█▓▒▒░░░silva\x20v5░░░▒▒▓█\x20𝐵𝛩𝑇_',
     'json',
     'error.mp3',
     'thumb',
