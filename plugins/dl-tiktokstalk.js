@@ -3,7 +3,7 @@ let handler = async (m, { conn, text, args }) => {
   if (!text) throw `✳️Enter the Username of a TikTok user `
   let res = await fg.ttStalk(args[0])
   let txt = `
-┌──「 *TIKTOK STALK* 
+┌──「 *█▓▒▒░░░silva v5░░░▒▒▓█TIKTOK STALK* 
 ▢ *🔖Number:* ${res.name}
 ▢ *🔖Username:* ${res.username}
 ▢ *👥followers:* ${res.followers}
