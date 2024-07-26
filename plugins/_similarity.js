@@ -20,7 +20,7 @@ export async function before(m, { conn, match, usedPrefix, command }) {
       m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
     let name = await conn.getName(who)
 
-    let caption = `Hey ${name} senpai are you trying to use  *${usedPrefix + mean} ?*`
+    let caption = `Hey ${name} are you trying to use  *${usedPrefix + mean} ?*`
     if (mean) this.reply(m.chat, `${caption}`, m)
   }
 }
