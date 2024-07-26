@@ -11,3 +11,5 @@ const handler = async (m, { conn: conn }) => {
 };
 handler.help = ["downloadsw"], handler.tags = ["tools"], handler.command = /^((sw|status)(dl|download)|(dl|download)(sw|status))$/i;
 export default handler;
+
+
