@@ -9,7 +9,7 @@ let handler = async (m, { conn, usedPrefix }) => {
   let user = global.db.data.users[who]
   let username = conn.getName(who)
   //let { wealth } = global.db.data.users[who]
-  if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
+  if (!(who in global.db.data.users)) throw `✳️ The user is not found in 🆂🅸🅻🆅🅰 database`
 
   var wealth = 'Broke😭'
   if (`${user.bank}` <= 3000) {
