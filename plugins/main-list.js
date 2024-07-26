@@ -8,7 +8,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
         : m.sender
   if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
 
-  let pp = './media/shizo.jpg'
+  let pp = './silva v5.jpg'
   let more = String.fromCharCode(8206)
   let readMore = more.repeat(850)
 
@@ -54,7 +54,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 
     case 'botmenu':
       lkr = `❀° ┄──•••───╮
-          𝘽𝙊𝙏 𝙈𝙀𝙉𝙐  
+         『SILVA』『MD』 『V5』 𝘽𝙊𝙏 𝙈𝙀𝙉𝙐  
    ╰───•••──┄ °❀     
    ┏━━━ʕ•㉨•ʔ━━━┓
    ⎪⌲👑 _${usedPrefix}gita_
@@ -74,7 +74,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
       break
     case 'ownermenu':
       lkr = `❀° ┄──•••───╮
-          𝙊𝙒𝙉𝙀𝙍 𝙈𝙀𝙉𝙐  
+         『SILVA』『MD』 『V5』 𝙊𝙒𝙉𝙀𝙍 𝙈𝙀𝙉𝙐  
      ╰───•••──┄ °❀     
      ┏━━━ʕ•㉨•ʔ━━━┓
      ⎪⌲👑 _${usedPrefix}banchat_
@@ -93,7 +93,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
       break
     case 'groupmenu':
       lkr = `❀° ┄──•••───╮
-          𝙂𝙍𝙊𝙐𝙋 𝙈𝙀𝙉𝙐 
+          『SILVA』『MD』 『V5』𝙂𝙍𝙊𝙐𝙋 𝙈𝙀𝙉𝙐 
     ╰───•••──┄ °❀     
     ┏━━━ʕ•㉨•ʔ━━━┓
     ⎪⌲💎_${usedPrefix}kick *<@tag>*_
@@ -117,7 +117,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     case 'downloadermenu':
     case 'dlmenu':
       lkr = `❀° ┄──•••───╮
-          𝘿𝙇 𝙈𝙀𝙉𝙐 
+         『SILVA』『MD』 『V5』 𝘿𝙇 𝙈𝙀𝙉𝙐 
    ╰───•••──┄ °❀     
    ┏━━━ʕ•㉨•ʔ━━━┓
    ⎪⌲💎_${usedPrefix}play_
@@ -141,7 +141,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
       break
     case 'economymenu':
       lkr = `❀° ┄──•••───╮
-          𝙀𝘾𝙊𝙉𝙊𝙈𝙔 
+         『SILVA』『MD』 『V5』 𝙀𝘾𝙊𝙉𝙊𝙈𝙔 
    ╰───•••──┄ °❀     
    ┏━━━ʕ•㉨•ʔ━━━┓
    ⎪⌲👑 _${usedPrefix}claim/daily_
@@ -165,7 +165,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
       break
     case 'funmenu':
       lkr = `❀° ┄──•••───╮
-          𝙁𝙐𝙉 𝙈𝙀𝙉𝙐
+        『SILVA』『MD』 『V5』  𝙁𝙐𝙉 𝙈𝙀𝙉𝙐
     ╰───•••──┄ °❀     
     ┏━━━ʕ•㉨•ʔ━━━┓
     ⎪⌲👑 _${usedPrefix}character_
@@ -185,7 +185,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
       break
     case 'animemenu':
       lkr = `❀° ┄──•••───╮
-          𝐴𝑁𝐼𝑀𝐸 𝑀𝐸𝑁𝑈
+        『SILVA』『MD』 『V5』  𝐴𝑁𝐼𝑀𝐸 𝑀𝐸𝑁𝑈
     ╰───•••──┄ °❀     
     ┏━━━ʕ•㉨•ʔ━━━┓
     ⎪⌲👑 _${usedPrefix}waifu_
@@ -230,7 +230,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
       break
     case 'gamemenu':
       lkr = `❀° ┄──•••───╮
-          𝙂𝘼𝙈𝙀 𝙈𝙀𝙉𝙐 
+       『SILVA』『MD』 『V5』   𝙂𝘼𝙈𝙀 𝙈𝙀𝙉𝙐 
     ╰───•••──┄ °❀     
     ┏━━━ʕ•㉨•ʔ━━━┓
     ⎪⌲👑 _${usedPrefix}tictactoe_
@@ -246,7 +246,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
       break
     case 'stickermenu':
       lkr = `❀° ┄──•••───╮
-          𝙎𝙏𝙄𝘾𝙆𝙀𝙍 𝙈𝙀𝙉𝙐
+         『SILVA』『MD』 『V5』 𝙎𝙏𝙄𝘾𝙆𝙀𝙍 𝙈𝙀𝙉𝙐
      ╰───•••──┄ °❀     
      ┏━━━ʕ•㉨•ʔ━━━┓
      ⎪⌲👑 _${usedPrefix}sticker_
@@ -267,7 +267,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
       break
     case 'toolmenu':
       lkr = `❀° ┄──•••───╮
-          𝙏𝙊𝙊𝙇𝙎 𝙈𝙀𝙉𝙐
+        『SILVA』『MD』 『V5』  𝙏𝙊𝙊𝙇𝙎 𝙈𝙀𝙉𝙐
      ╰───•••──┄ °❀     
      ┏━━━ʕ•㉨•ʔ━━━┓
      ⎪⌲👑 _${usedPrefix}autosticker_
