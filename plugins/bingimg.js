@@ -17,3 +17,7 @@ handler.tags = ['AI']
 handler.command = /^bingimg$/i
 
 export default handler
+
+
+
+
