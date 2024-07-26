@@ -71,3 +71,5 @@ quranSurahHandler.tags = ['quran', 'surah']
 quranSurahHandler.command = ['quran', 'surah']
 
 export default quranSurahHandler
+
+
