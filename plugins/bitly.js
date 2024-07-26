@@ -22,3 +22,5 @@ handler.tags = ['tools'];
 handler.command = /^(shortlink|bitly)$/i;
 
 export default handler;
+
+
