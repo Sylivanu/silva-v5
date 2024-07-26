@@ -28,3 +28,5 @@ handler.tags = ['tools']
 handler.command = ['letra', 'lyrics', 'letras']
 
 export default handler
+
+
