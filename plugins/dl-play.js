@@ -21,13 +21,13 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 
     const { title, url, thumbnail } = result;
 
-    const captvid = '*join lazack md v2 support group, and just few second i will send you video*';
-    const sourceUrl = "https://chat.whatsapp.com/IIpL6gf6dcq4ial8gaJLE9";
+    const captvid = '*Follow ¸¸♬·¯·♪·¯·♫¸¸ 𝓼𝓲𝓵𝓿𝓪 𝓿5¸¸♫·¯·♪¸♩·¯·♬¸¸ support channel, and just few second i will send you video*';
+    const sourceUrl = "https://whatsapp.com/channel/0029VaAkETLLY6d8qhLmZt2v";
 
     conn.reply(m.chat, captvid, m, {
       contextInfo: {
         externalAdReply: {
-          title: `LAZACK MD V2`,
+          title: `█▓▒▒░░░silva v5░░░▒▒▓█`,
           thumbnailUrl: thumbnail,
           sourceUrl,
           mediaType: 1,
@@ -59,7 +59,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
           mediaType: 2,
           mediaUrl: url,
           title: title,
-          body: 'HERE IS YOUR SONG',
+          body: 'HERE IS YOUR SONG BY █▓▒▒░░░silva v5░░░▒▒▓█',
           sourceUrl: url,
           thumbnail: await (await conn.getFile(thumbnail)).data
         }
@@ -77,7 +77,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
     });
   } catch (error) {
     console.error(error);
-    throw 'Something went wrong 🥺 please try again later';
+    throw 'Something went wrong 🥺 please try again later\n█▓▒▒░░░silva v5░░░▒▒▓█';
   }
 };
 
