@@ -13,7 +13,7 @@ let handler = async (m, { conn, text }) => {
   let users = global.db.data.users
   users[who].credit += dmt
 
-  await m.reply(`≡ *Gold ADDED*
+  await m.reply(`≡ *🆂🅸🅻🆅🅰 Gold ADDED*
 ┌──────────────
 ▢ *Total:* ${dmt}
 └──────────────`)
