@@ -5,7 +5,7 @@ export default async function displayLoadingScreen(conn, from) {
     'ʟᴏᴀᴅɪɴɢ 《 ███████▒▒▒▒▒》50%,',
     'ʟᴏᴀᴅɪɴɢ 《 ██████████▒▒》80%,',
     'ʟᴏᴀᴅɪɴɢ 《 ████████████》100%,',
-    'ʟᴏᴀᴅɪɴɢ ᴄᴏᴍᴘʟᴇᴛᴇ',
+    'Silva v5 ʟᴏᴀᴅɪɴɢ ᴄᴏᴍᴘʟᴇᴛᴇ',
   ]
 
   try {
