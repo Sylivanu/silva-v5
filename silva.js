@@ -270,7 +270,7 @@ if (pairingCode && !conn.authState.creds.registered) {
 
     if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
       console.log(
-        chalk.bgBlack(chalk.redBright("Start with your country's WhatsApp code, Example : 62xxx"))
+        chalk.bgBlack(chalk.redBright("Start with your country's WhatsApp code, Example : 254xxx"))
       )
       process.exit(0)
     }
@@ -368,7 +368,7 @@ async function connectionUpdate(update) {
   if (connection === 'open') {
     const { jid, name } = conn.user
 
-    let msgf = `Hai🤩${name} Congrats you have successfully deployed 𝐋𝐀𝐙𝐀𝐂𝐊-𝐌𝐃\nJoin my support Group for any Query\nhttps://whatsapp.com/channel/0029VaFytPbAojYm7RIs6l1x`
+    let msgf = `Hai🤩${name} Congrats you have successfully deployed ❚█══silva v5══█❚\nFollow our channel for updates\nBe part of silva tech\nsilva bot is a user friendly bot\nget the best from us\n❚█══silva v5══█❚\n\n\nhttps://whatsapp.com/channel/0029VaAkETLLY6d8qhLmZt2v`
 
     let gmes = conn.sendMessage(
       jid,
