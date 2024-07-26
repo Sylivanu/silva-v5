@@ -11,7 +11,7 @@ let handler = async (m, { conn, usedPrefix: prefix, command, text }) => {
       if (data.size.replace(' MB', '') > 200) {
         return await conn.sendMessage(
           m.chat,
-          { text: '*[⛔] The file is too large.*' },
+          { text: '*[😈] The file is too large.*' },
           { quoted: m }
         )
       }
@@ -19,7 +19,7 @@ let handler = async (m, { conn, usedPrefix: prefix, command, text }) => {
       if (data.size.includes('GB')) {
         return await conn.sendMessage(
           m.chat,
-          { text: '*[⛔] The file is too large.*' },
+          { text: '*[😈] The file is too large.*' },
           { quoted: m }
         )
       }
