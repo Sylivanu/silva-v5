@@ -82,3 +82,7 @@ function number(x = 0) {
   x = parseInt(x)
   return !isNaN(x) && typeof x == 'number'
 }
+
+
+
+
