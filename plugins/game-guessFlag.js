@@ -39,3 +39,5 @@ handler.tags = ['game']
 handler.command = /^guessflag/i
 
 export default handler
+
+
