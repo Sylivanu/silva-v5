@@ -1,5 +1,5 @@
 { 
-    "name": "OREO-BOT",
+    "name": "silva-v5",
     "version": "2.0.4",
     "description": "WhatsApp Bot created with the help of ShizoBot-base using Baileys. Written in javascript",
     "main": "index.js",
@@ -21,16 +21,16 @@
     "Termux-WaBot",
     "WaBot-Base"
   ],
-    "homepage": "https://github.com/shizothetechie/oreo-bot",
+    "homepage": "https://github.com/SilvaTechB/silva-v5",
     "author": {
-        "name": "shizo"
+        "name": "silva"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/shizothetechie/oreo-bot.git"
+        "url": "git+https://github.com/SilvaTechB/silva-v5.git"
     },
     "bugs": {
-        "url": "https://github.com/shizothetechie/oreo-bot/issues"
+        "url": "https://github.com/SilvaTechB/silva-v5/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
