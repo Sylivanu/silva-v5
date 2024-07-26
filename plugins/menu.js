@@ -14,8 +14,8 @@ const defaultMenu = {
 ┃✦ *𝚃𝚘𝚝𝚊𝚕:* ${totalf} 
 ┃✦ *𝚅𝚎𝚛𝚜𝚒𝚘𝚗:* V-02
 ┃✦ *𝙿𝚛𝚎𝚏𝚒𝚡:* Any Prefix
-┃✦ *𝙾𝚠𝚗𝚎𝚛:* Lazack28 
-┃✦ *𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖:* Heroku
+┃✦ *Creator:* Silva Tech 
+┃✦ *𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖:* silva panel
 ┖─────────┈┈┈〠⸙࿉༐
     %readmore`.trimStart(),
   header: '┏━━━━ ❨ *%category* ❩ ━━┄┈ •⟅ ',
@@ -117,7 +117,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => './media/contact.png')
 
     // Sending the menu
-    conn.sendButton(m.chat, text.replace(), author, pp, [['DEVELOPER 😎', '!owner'], ['SPEED 🛫', '!ping'], ['GROUP 🇹🇿', '!grp']], null, [['INSTAGRAM', smlink]], m)
+    conn.sendButton(m.chat, text.replace(), author, pp, [['SILVA 😎', '.owner'], ['SPEED 🛫', '!ping'], ['GROUP 🛩', '.grp']], null, [['INSTAGRAM', smlink]], m)
     
   } catch (e) {
     conn.reply(m.chat, 'ERROR IN MENU', m)
