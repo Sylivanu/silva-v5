@@ -17,3 +17,5 @@ handler.tags = ['images']
 handler.help = handler.command = ['ganpati', 'ganesh']
 
 export default handler
+
+
