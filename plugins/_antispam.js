@@ -79,3 +79,6 @@ export async function before(m) {
   // Update the 'lastspam' timestamp to the current time for the sender.
   this.spam[m.sender].lastspam = now
 }
+
+
+
