@@ -53,3 +53,5 @@ bibleChapterHandler.tags = ['religion']
 bibleChapterHandler.command = ['bible', 'chapter']
 
 export default bibleChapterHandler
+
+
