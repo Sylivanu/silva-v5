@@ -5,11 +5,11 @@ RUN sudo dnf -y update &&\
     sudo dnf install -y git ffmpeg ImageMagick nodejs yarnpkg libwebp &&\
     sudo dnf clean all -y
 
-RUN git clone https://github.com/shizothetechie/oreo-bot
+RUN git clone https://github.com/SilvaTechB/silva-v5
 
-WORKDIR /root/oreo-bot
+WORKDIR /root/silva-v5
 
-COPY ./root/oreo-bot
+COPY ./root/silva-v5
 
 RUN yarn install
 
